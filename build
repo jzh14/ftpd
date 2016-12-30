@@ -1,0 +1,5 @@
+#!/bin/bash
+g++ -c -O3 -std=c++11 list.cpp -o list.o
+g++ -c -O3 lib_ini.cpp -o lib_ini.o
+g++ -c -O3 lib_INIReader.cpp -o lib_INIReader.o
+g++ -O3 -std=c++11 ftpd.cpp *.o -o ftpd
